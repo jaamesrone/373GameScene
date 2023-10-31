@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028331, g: 0.2257133, b: 0.3069217, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -207,32 +207,32 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 17b62156cf5cbb846ac58d03bc085a2f,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.001338
+      value: 0.0005530295
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 17b62156cf5cbb846ac58d03bc085a2f,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.001338
+      value: 0.0005530295
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 17b62156cf5cbb846ac58d03bc085a2f,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.001338
+      value: 0.0005530295
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 17b62156cf5cbb846ac58d03bc085a2f,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 6.6369
+      value: 9.85
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 17b62156cf5cbb846ac58d03bc085a2f,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.97
+      value: 1.292
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 17b62156cf5cbb846ac58d03bc085a2f,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.71
+      value: -1.45
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 17b62156cf5cbb846ac58d03bc085a2f,
         type: 3}
@@ -666,6 +666,74 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+--- !u!1001 &611793246
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: c5c5a468d6179a943808c33cf26797c2,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 11.538
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c5c5a468d6179a943808c33cf26797c2,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.40326118
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c5c5a468d6179a943808c33cf26797c2,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.294
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c5c5a468d6179a943808c33cf26797c2,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c5c5a468d6179a943808c33cf26797c2,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c5c5a468d6179a943808c33cf26797c2,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c5c5a468d6179a943808c33cf26797c2,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c5c5a468d6179a943808c33cf26797c2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c5c5a468d6179a943808c33cf26797c2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c5c5a468d6179a943808c33cf26797c2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c5c5a468d6179a943808c33cf26797c2,
+        type: 3}
+      propertyPath: m_Name
+      value: PicketFence
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c5c5a468d6179a943808c33cf26797c2, type: 3}
 --- !u!1 &689648828
 GameObject:
   m_ObjectHideFlags: 0
@@ -828,3 +896,4 @@ SceneRoots:
   - {fileID: 463219024}
   - {fileID: 689648832}
   - {fileID: 216836146}
+  - {fileID: 611793246}
