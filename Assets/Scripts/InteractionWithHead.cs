@@ -5,50 +5,71 @@ using UnityEngine.UI;
 
 public class InteractionWithHead : MonoBehaviour
 {
-    public float interactionDistance = 2f; // Adjust the distance at which the player can interact
-    public GameObject interactionUI;
-    public Text interactionText;
+    public GameObject head; 
+    public float popForce = 10f; 
+    public float fallDelay = 1f; 
+    public AudioClip detachSound; 
+    private bool canDetachHead = false;
+    private AudioSource audioSource;
 
-    void Start()
+    private void Start()
     {
-        // Make sure the interaction UI is initially hidden
-        interactionUI.SetActive(false);
+        audioSource = GetComponent<AudioSource>();
     }
 
-    void Update()
+    private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E)) // You can change the key to your desired interaction key
+        if (canDetachHead && Input.GetKeyDown(KeyCode.E))
         {
-            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-            RaycastHit hit;
-
-            if (Physics.Raycast(ray, out hit, interactionDistance))
-            {
-                GameObject objectHit = hit.collider.gameObject;
-
-                if (objectHit.CompareTag("Interactable")) // You can assign a tag to your interactable objects
-                {
-                    // Perform interaction actions (e.g., make the object fall, display a message)
-                    objectHit.GetComponent<Rigidbody>().isKinematic = false; // Disable kinematic to enable physics
-                    // Add more interaction logic here
-
-                    // Hide the interaction UI
-                    interactionUI.SetActive(false);
-                }
-            }
+            DetachHead();
         }
     }
 
-    // Call this method to display the UI indicator with a custom message
-    public void ShowInteractionUI(string message)
+    private void OnTriggerEnter(Collider other)
     {
-        interactionText.text = message;
-        interactionUI.SetActive(true);
+        if (other.CompareTag("Player")) 
+        {
+            canDetachHead = true;
+        }
     }
 
-    // Call this method to hide the UI indicator
-    public void HideInteractionUI()
+    private void OnTriggerExit(Collider other)
     {
-        interactionUI.SetActive(false);
+        if (other.CompareTag("Player"))
+        {
+            canDetachHead = false;
+        }
+    }
+
+    private void DetachHead()
+    {
+        // Play the detach sound
+        if (audioSource != null && detachSound != null)
+        {
+            audioSource.PlayOneShot(detachSound);
+        }
+
+        // Detach the head from the body
+        head.transform.parent = null;
+
+        // Apply a force to "pop up" the head
+        Rigidbody headRigidbody = head.GetComponent<Rigidbody>();
+        if (headRigidbody != null)
+        {
+            headRigidbody.isKinematic = false; // Allow physics to affect the head
+            headRigidbody.AddForce(Vector3.up * popForce, ForceMode.Impulse);
+        }
+
+        // Add a delay before the head falls (you can use a Coroutine for this)
+        Invoke("FallHead", fallDelay);
+    }
+
+    private void FallHead()
+    {
+        Rigidbody headRigidbody = head.GetComponent<Rigidbody>();
+        if (headRigidbody != null)
+        {
+            headRigidbody.useGravity = true; // Enable gravity to make the head fall
+        }
     }
 }
