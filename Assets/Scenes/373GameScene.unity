@@ -716,6 +716,9 @@ MonoBehaviour:
   interactDistance: 4.8
   interactKey: 101
   popSound: {fileID: 8300000, guid: c17cb976927198b4795bbbbf06292831, type: 3}
+  player: {fileID: 0}
+  displayText: {fileID: 267890239}
+  displayDistance: 5
 --- !u!1 &410087039
 GameObject:
   m_ObjectHideFlags: 0

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PopUp : MonoBehaviour
 {
@@ -13,21 +14,39 @@ public class PopUp : MonoBehaviour
     private bool canInteract = false;
     private bool hasInteracted = false;
 
-    private ConfigurableJoint joint;
+    private ConfigurableJoint headJoint;
+    private ConfigurableJoint bodyJoint;
     private AudioSource audioSource;
+
+    // UI Text
+    public Transform player;
+    public Text displayText;
+    public float displayDistance = 5f;
 
     private void Start()
     {
         // Create a ConfigurableJoint on the head
-        joint = head.gameObject.AddComponent<ConfigurableJoint>();
-        joint.connectedBody = body.GetComponent<Rigidbody>();
-        joint.enableCollision = false; // Disable collision between head and body
-        joint.breakForce = Mathf.Infinity; // Make the joint unbreakable initially
+        headJoint = head.gameObject.AddComponent<ConfigurableJoint>();
+        headJoint.connectedBody = body.GetComponent<Rigidbody>();
+        headJoint.enableCollision = false; // Disable collision between head and body
+        headJoint.breakForce = Mathf.Infinity; // Make the joint unbreakable initially
+
+        // Create a ConfigurableJoint on the body
+        bodyJoint = body.gameObject.AddComponent<ConfigurableJoint>();
+        bodyJoint.connectedBody = head.GetComponent<Rigidbody>();
+        bodyJoint.enableCollision = false; // Disable collision between body and head
+        bodyJoint.breakForce = Mathf.Infinity; // Make the joint unbreakable initially
 
         // Add an AudioSource for sound effects
         audioSource = head.gameObject.AddComponent<AudioSource>();
         audioSource.clip = popSound;
         audioSource.playOnAwake = false;
+
+        // UI Text initialization
+        if (displayText != null)
+        {
+            displayText.enabled = false; // Hide the text initially
+        }
     }
 
     private void Update()
@@ -42,11 +61,10 @@ public class PopUp : MonoBehaviour
         float distance = Vector3.Distance(transform.position, Camera.main.transform.position);
         canInteract = distance < interactDistance;
 
-        // Display UI prompt
-        if (canInteract)
+        // Display or hide the UI text based on distance
+        if (displayText != null)
         {
-            // Implement your UI display logic here
-            Debug.Log("Press 'E' to interact");
+            displayText.enabled = canInteract && !hasInteracted; // Show text only if not interacted
         }
 
         // Check for player input to interact
@@ -58,8 +76,14 @@ public class PopUp : MonoBehaviour
 
     private void PerformInteraction()
     {
-        // Break the joint to separate the head from the body
-        Destroy(joint);
+        // Hide the UI text
+        if (displayText != null)
+        {
+            displayText.enabled = false;
+        }
+
+        // Break the joint on the head to separate it from the body
+        Destroy(headJoint);
 
         // Play the sound effect
         if (audioSource != null && popSound != null)
@@ -77,9 +101,7 @@ public class PopUp : MonoBehaviour
 
         // Perform any other actions you want here
 
-
         // Set the flag to indicate that the interaction has occurred
         hasInteracted = true;
     }
-
 }
