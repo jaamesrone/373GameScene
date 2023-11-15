@@ -23,6 +23,14 @@ public class PopUp : MonoBehaviour
     public Text displayText;
     public float displayDistance = 5f;
 
+    
+
+    //Based on how many heads are popped up
+
+         private int interactionCount = 0; // New variable to count interactions
+    public int interactionThreshold = 5; 
+
+
     private void Start()
     {
         // Create a ConfigurableJoint on the head
@@ -103,5 +111,25 @@ public class PopUp : MonoBehaviour
 
         // Set the flag to indicate that the interaction has occurred
         hasInteracted = true;
+
+         interactionCount++;
+
+        // Check if the interaction count has reached the threshold
+        if (interactionCount >= interactionThreshold)
+        {
+            // Activate special code here
+            // This is the place where you can attach your special code
+            // ...
+            Debug.Log("Special code activated!");
+        }
+
+        // Perform any other actions you want here
+
+        // Set the flag to indicate that the interaction has occurred
+        hasInteracted = true;
+    
     }
+
+
+
 }
