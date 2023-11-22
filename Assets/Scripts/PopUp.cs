@@ -11,6 +11,16 @@ public class PopUp : MonoBehaviour
     public KeyCode interactKey = KeyCode.E;
     public AudioClip popSound; // Add your pop sound effect here
 
+    // UI Text
+    public Transform player;
+    public Text displayText;
+    public Text SpecialEventText;
+    public float displayDistance = 5f;
+
+    public GameObject RainFall;
+    public GameObject Clouds;
+    public GameObject directionalLightObject;
+
     private bool canInteract = false;
     private bool hasInteracted = false;
 
@@ -18,17 +28,14 @@ public class PopUp : MonoBehaviour
     private ConfigurableJoint bodyJoint;
     private AudioSource audioSource;
 
-    // UI Text
-    public Transform player;
-    public Text displayText;
-    public float displayDistance = 5f;
 
-    
+
+
 
     //Based on how many heads are popped up
 
-         private int interactionCount = 0; // New variable to count interactions
-    public int interactionThreshold = 5; 
+    private int interactionCount = 0; // New variable to count interactions
+    public int interactionThreshold; //set it in the hierachy
 
 
     private void Start()
@@ -117,10 +124,7 @@ public class PopUp : MonoBehaviour
         // Check if the interaction count has reached the threshold
         if (interactionCount >= interactionThreshold)
         {
-            // Activate special code here
-            // This is the place where you can attach your special code
-            // ...
-            Debug.Log("Special code activated!");
+            SpecialEvent();
         }
 
         // Perform any other actions you want here
@@ -130,6 +134,65 @@ public class PopUp : MonoBehaviour
     
     }
 
+    private void SpecialEvent() //james' code
+    {
+        // turn on particle effects 
+        if (RainFall != null)
+        {
+            RainFall.SetActive(true);
+        }
 
+        if (Clouds != null)
+        {
+            Clouds.SetActive(true);
+        }
+
+        if (SpecialEventText != null)
+        {
+            SpecialEventText.text = "Special Code Activated!";
+        }
+
+        // changes the intensity lighting from 2 to .3
+        if (directionalLightObject != null)
+        {
+            LightSensitivity(0.3f);
+        }
+
+        // starts a 180 second timer to toggle the rain, rain, and intensity
+        StartCoroutine(TurnOffEffects(180f)); // 180 seconds = 3 minutes
+        Debug.Log("Special code activated!");
+    }
+
+    private void LightSensitivity(float intensity) //james' code
+    {
+        if (directionalLightObject != null)
+        {
+            Light directionalLight = directionalLightObject.GetComponent<Light>();
+            if (directionalLight != null)
+            {
+                directionalLight.intensity = intensity;
+            }
+        }
+    }
+
+    private IEnumerator TurnOffEffects(float duration) //james' code
+    {
+        yield return new WaitForSeconds(duration);
+
+        // after 180 seconds the game objects turn back off. :)
+        if (RainFall != null)
+        {
+            RainFall.SetActive(false);
+        }
+
+        else if (Clouds != null)
+        {
+            Clouds.SetActive(false);
+        }
+        else if (directionalLightObject != null)
+        {
+            LightSensitivity(2f);
+        }
+    }
 
 }
