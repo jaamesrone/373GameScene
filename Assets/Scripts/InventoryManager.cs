@@ -1,0 +1,51 @@
+using UnityEngine;
+
+public class InventoryManager : MonoBehaviour
+{
+    public GameObject playerCharacterPrefab;
+    public GameObject rcCarPrefab;
+
+    public UnityStandardAssets.Characters.FirstPerson.FirstPersonController firstPersonController;
+
+    private GameObject rcCar;
+    private GameObject Player;
+
+    void Start()
+    {
+        // rc car get spawned right when the scene starts
+        rcCar = Instantiate(rcCarPrefab, transform.position, transform.rotation);
+        rcCar.SetActive(false); // hide the rc car so you can toggle it's ability back and forth.
+
+        Player = playerCharacterPrefab;
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        // press tab to switch from player to rc car.
+        if (Input.GetKeyDown(KeyCode.Tab))
+        {
+            SwitchItem();
+        }
+    }
+
+    void SwitchItem()
+    {
+        // disable the script of the current active device
+        firstPersonController.enabled = false;
+
+        Player.SetActive(!Player.activeSelf);
+        rcCar.SetActive(!rcCar.activeSelf);
+
+        // Set the position and rotation of the newly activated device
+        rcCar.transform.position = transform.position;
+        rcCar.transform.rotation = transform.rotation;
+
+        // Enable the script of the new active person
+        firstPersonController.enabled = true;
+
+
+        // debug information
+        Debug.Log("Switched to: " + rcCar.name);
+    }
+}
