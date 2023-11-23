@@ -29,6 +29,7 @@ public class InventoryManager : MonoBehaviour
 
     void SwitchItem()
     {
+        //toggles player and rc on and off when switching
         Player.SetActive(!Player.activeSelf);
         rcCar.SetActive(!rcCar.activeSelf);
 
