@@ -19,10 +19,10 @@ public class RCCarController : MonoBehaviour
         }
 
         // Move the RC car based on input
-        float horizontal = Input.GetAxis("Horizontal");
         float vertical = Input.GetAxis("Vertical");
+        float horizontal = Input.GetAxis("Horizontal");
 
-        Vector3 movement = new Vector3(vertical, 0f, horizontal) * moveSpeed * Time.deltaTime;
+        Vector3 movement = new Vector3(vertical, 0f, - horizontal) * moveSpeed * Time.deltaTime;
         transform.Translate(movement);
 
         // Rotate the RC car based on mouse input

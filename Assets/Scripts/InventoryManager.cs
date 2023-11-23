@@ -5,8 +5,6 @@ public class InventoryManager : MonoBehaviour
     public GameObject playerCharacterPrefab;
     public GameObject rcCarPrefab;
 
-    public UnityStandardAssets.Characters.FirstPerson.FirstPersonController firstPersonController;
-
     private GameObject rcCar;
     private GameObject Player;
 
@@ -31,19 +29,12 @@ public class InventoryManager : MonoBehaviour
 
     void SwitchItem()
     {
-        // disable the script of the current active device
-        firstPersonController.enabled = false;
-
         Player.SetActive(!Player.activeSelf);
         rcCar.SetActive(!rcCar.activeSelf);
 
         // Set the position and rotation of the newly activated device
         rcCar.transform.position = transform.position;
         rcCar.transform.rotation = transform.rotation;
-
-        // Enable the script of the new active person
-        firstPersonController.enabled = true;
-
 
         // debug information
         Debug.Log("Switched to: " + rcCar.name);
