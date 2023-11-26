@@ -31,8 +31,14 @@ public class RCCarController : MonoBehaviour
 
     IEnumerator ActivateBoost()
     {
+        // Store the initial local position of the camera
+        Vector3 initialLocalPosition = cameraTransform.localPosition;
+
         // Start the boost
         isBoosting = true;
+
+        // Move the camera along its local x-axis by -1 unit
+        cameraTransform.localPosition += new Vector3(-1, 0, 0);
 
         // Apply the boost speed
         moveSpeed += boostSpeed;
@@ -41,9 +47,17 @@ public class RCCarController : MonoBehaviour
         yield return new WaitForSeconds(boostCooldown);
 
         // Reset speed and end the boost
+
+        // Reset the camera's local position to the initial local position
+        cameraTransform.localPosition = initialLocalPosition;
+
+        // Reset speed and end the boost
         moveSpeed -= boostSpeed;
+
         isBoosting = false;
     }
+
+
 
     private void FreeRoam()
     {
