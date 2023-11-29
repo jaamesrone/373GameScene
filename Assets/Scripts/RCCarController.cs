@@ -46,8 +46,6 @@ public class RCCarController : MonoBehaviour
         // Wait for the boost duration
         yield return new WaitForSeconds(boostCooldown);
 
-        // Reset speed and end the boost
-
         // Reset the camera's local position to the initial local position
         cameraTransform.localPosition = initialLocalPosition;
 
