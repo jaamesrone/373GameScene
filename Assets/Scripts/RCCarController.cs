@@ -37,8 +37,8 @@ public class RCCarController : MonoBehaviour
         // Start the boost
         isBoosting = true;
 
-        // Move the camera along its local x-axis by -1 unit
-        cameraTransform.localPosition += new Vector3(-1, 0, 0);
+        // Move the camera along its local x-axis by -20 unit
+        cameraTransform.localPosition += new Vector3(-20, 0, 0);
 
         // Apply the boost speed
         moveSpeed += boostSpeed;
