@@ -1,21 +1,21 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class PopUp : MonoBehaviour
 {
+    public static int totalMannequins; // Static variable to store the total number of mannequins
+    public static int interactedMannequins; // Static variable to count the number of interacted mannequins
+
     public Transform head;
     public Transform body;
     public float interactDistance = 2f;
     public KeyCode interactKey = KeyCode.E;
-    public AudioClip popSound; // Add your pop sound effect here
+    public AudioClip popSound;
 
     // UI Text
-    public Transform player;
     public Text displayText;
     public Text SpecialEventText;
-    public float displayDistance = 5f;
 
     public GameObject RainFall;
     public GameObject Clouds;
@@ -28,18 +28,14 @@ public class PopUp : MonoBehaviour
     private ConfigurableJoint bodyJoint;
     private AudioSource audioSource;
 
-
-
-
-
-    //Based on how many heads are popped up
-
-    private int interactionCount = 0; // New variable to count interactions
-    public int interactionThreshold; //set it in the hierachy
-
+    private int interactionCount = 0;
+    public int interactionThreshold;
 
     private void Start()
     {
+        // Increment the total number of mannequins when a new mannequin is instantiated
+        totalMannequins++;
+
         // Create a ConfigurableJoint on the head
         headJoint = head.gameObject.AddComponent<ConfigurableJoint>();
         headJoint.connectedBody = body.GetComponent<Rigidbody>();
@@ -79,7 +75,7 @@ public class PopUp : MonoBehaviour
         // Display or hide the UI text based on distance
         if (displayText != null)
         {
-            displayText.enabled = canInteract && !hasInteracted; // Show text only if not interacted
+            displayText.enabled = canInteract && !hasInteracted; // Show text only if not interacted and near the mannequin
         }
 
         // Check for player input to interact
@@ -114,56 +110,29 @@ public class PopUp : MonoBehaviour
             headRb.AddForce(Vector3.up * 5f, ForceMode.Impulse);
         }
 
-        // Perform any other actions you want here
-
         // Set the flag to indicate that the interaction has occurred
         hasInteracted = true;
 
-         interactionCount++;
+        // Increment the interacted mannequins count
+        interactedMannequins++;
 
-        // Check if the interaction count has reached the threshold
-        if (interactionCount >= interactionThreshold)
+        // Check if all mannequins have been interacted with
+        if (interactedMannequins >= totalMannequins)
         {
-            SpecialEvent();
+            // Trigger the specific code for all mannequins interacted
+            AllMannequinsInteracted();
         }
-
-        // Perform any other actions you want here
-
-        // Set the flag to indicate that the interaction has occurred
-        hasInteracted = true;
-    
     }
 
-    private void SpecialEvent() //james' code
+    private void AllMannequinsInteracted()
     {
-        // turn on particle effects 
-        if (RainFall != null)
-        {
-            RainFall.SetActive(true);
-        }
+        // Your specific code for when all mannequins have been interacted
+        Debug.Log("All mannequins interacted!");
 
-        if (Clouds != null)
-        {
-            Clouds.SetActive(true);
-        }
-
-        if (SpecialEventText != null)
-        {
-            SpecialEventText.text = "Special Code Activated!";
-        }
-
-        // changes the intensity lighting from 2 to .3
-        if (directionalLightObject != null)
-        {
-            LightSensitivity(0.3f);
-        }
-
-        // starts a 180 second timer to toggle the rain, rain, and intensity
-        StartCoroutine(TurnOffEffects(180f)); // 180 seconds = 3 minutes
-        Debug.Log("Special code activated!");
+        // ... (perform other actions)
     }
 
-    private void LightSensitivity(float intensity) //james' code
+    private void LightSensitivity(float intensity)
     {
         if (directionalLightObject != null)
         {
@@ -175,7 +144,7 @@ public class PopUp : MonoBehaviour
         }
     }
 
-    private IEnumerator TurnOffEffects(float duration) //james' code
+    private IEnumerator TurnOffEffects(float duration)
     {
         yield return new WaitForSeconds(duration);
 
@@ -184,7 +153,6 @@ public class PopUp : MonoBehaviour
         {
             RainFall.SetActive(false);
         }
-
         else if (Clouds != null)
         {
             Clouds.SetActive(false);
@@ -194,5 +162,4 @@ public class PopUp : MonoBehaviour
             LightSensitivity(2f);
         }
     }
-
 }

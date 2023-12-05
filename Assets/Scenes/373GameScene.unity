@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028331, g: 0.2257133, b: 0.3069217, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -693,6 +693,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 347037016}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 17b62156cf5cbb846ac58d03bc085a2f,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 347037017}
     - targetCorrespondingSourceObject: {fileID: 635547659545568360, guid: 17b62156cf5cbb846ac58d03bc085a2f,
         type: 3}
       insertIndex: -1
@@ -1092,14 +1096,35 @@ MonoBehaviour:
   interactDistance: 4.8
   interactKey: 101
   popSound: {fileID: 8300000, guid: c17cb976927198b4795bbbbf06292831, type: 3}
-  player: {fileID: 0}
   displayText: {fileID: 1854446600}
   SpecialEventText: {fileID: 0}
-  displayDistance: 5
   RainFall: {fileID: 537331375}
   Clouds: {fileID: 1336858806}
   directionalLightObject: {fileID: 410087039}
   interactionThreshold: 2
+--- !u!114 &347037017
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 347037015}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a2494e526ed75544b74b3462c9aea85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  head: {fileID: 0}
+  body: {fileID: 0}
+  interactDistance: 2
+  interactKey: 101
+  popSound: {fileID: 0}
+  displayText: {fileID: 0}
+  SpecialEventText: {fileID: 0}
+  RainFall: {fileID: 0}
+  Clouds: {fileID: 0}
+  directionalLightObject: {fileID: 0}
+  interactionThreshold: 0
 --- !u!4 &356497314 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 5ad30529813c83a4ea3631ee2b530d4b,
