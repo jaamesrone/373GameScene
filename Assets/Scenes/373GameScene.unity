@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 5337763}
   - component: {fileID: 5337765}
   - component: {fileID: 5337764}
+  - component: {fileID: 5337766}
   m_Layer: 0
   m_Name: Fence_grp1_Fence_Pole (5)
   m_TagString: Untagged
@@ -206,6 +207,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5337762}
   m_Mesh: {fileID: -7154589907116038443, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &5337766
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5337762}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1 &9145311
 GameObject:
   m_ObjectHideFlags: 0
@@ -505,6 +528,7 @@ GameObject:
   - component: {fileID: 31756550}
   - component: {fileID: 31756552}
   - component: {fileID: 31756551}
+  - component: {fileID: 31756553}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (9)
   m_TagString: Untagged
@@ -576,6 +600,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 31756549}
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &31756553
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 31756549}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1001 &71621578
 PrefabInstance:
@@ -672,6 +718,7 @@ GameObject:
   - component: {fileID: 75626307}
   - component: {fileID: 75626309}
   - component: {fileID: 75626308}
+  - component: {fileID: 75626310}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (135)
   m_TagString: Untagged
@@ -744,6 +791,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 75626306}
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &75626310
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 75626306}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1 &79633073
 GameObject:
   m_ObjectHideFlags: 0
@@ -755,6 +824,7 @@ GameObject:
   - component: {fileID: 79633074}
   - component: {fileID: 79633076}
   - component: {fileID: 79633075}
+  - component: {fileID: 79633077}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (106)
   m_TagString: Untagged
@@ -826,6 +896,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 79633073}
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &79633077
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 79633073}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1001 &90129777
 PrefabInstance:
@@ -1026,6 +1118,7 @@ GameObject:
   - component: {fileID: 117103589}
   - component: {fileID: 117103591}
   - component: {fileID: 117103590}
+  - component: {fileID: 117103592}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (23)
   m_TagString: Untagged
@@ -1098,6 +1191,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 117103588}
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &117103592
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 117103588}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1 &119744868
 GameObject:
   m_ObjectHideFlags: 0
@@ -1109,6 +1224,7 @@ GameObject:
   - component: {fileID: 119744869}
   - component: {fileID: 119744871}
   - component: {fileID: 119744870}
+  - component: {fileID: 119744872}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (131)
   m_TagString: Untagged
@@ -1181,6 +1297,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 119744868}
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &119744872
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 119744868}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1 &125964513
 GameObject:
   m_ObjectHideFlags: 0
@@ -1192,6 +1330,7 @@ GameObject:
   - component: {fileID: 125964514}
   - component: {fileID: 125964516}
   - component: {fileID: 125964515}
+  - component: {fileID: 125964517}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (59)
   m_TagString: Untagged
@@ -1263,6 +1402,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 125964513}
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &125964517
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 125964513}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1 &137095625
 GameObject:
@@ -1358,6 +1519,7 @@ GameObject:
   - component: {fileID: 139210264}
   - component: {fileID: 139210266}
   - component: {fileID: 139210265}
+  - component: {fileID: 139210267}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (80)
   m_TagString: Untagged
@@ -1430,6 +1592,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 139210263}
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &139210267
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 139210263}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1 &146092362
 GameObject:
   m_ObjectHideFlags: 0
@@ -1441,6 +1625,7 @@ GameObject:
   - component: {fileID: 146092363}
   - component: {fileID: 146092365}
   - component: {fileID: 146092364}
+  - component: {fileID: 146092366}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (101)
   m_TagString: Untagged
@@ -1513,6 +1698,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 146092362}
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &146092366
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 146092362}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!4 &154089961 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 98c3875fb5ae61c4f9ce85086f3f4ee5,
@@ -1563,6 +1770,7 @@ GameObject:
   - component: {fileID: 157899118}
   - component: {fileID: 157899120}
   - component: {fileID: 157899119}
+  - component: {fileID: 157899121}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (43)
   m_TagString: Untagged
@@ -1635,6 +1843,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 157899117}
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &157899121
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 157899117}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1 &197689050
 GameObject:
   m_ObjectHideFlags: 0
@@ -1646,6 +1876,7 @@ GameObject:
   - component: {fileID: 197689051}
   - component: {fileID: 197689053}
   - component: {fileID: 197689052}
+  - component: {fileID: 197689054}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (67)
   m_TagString: Untagged
@@ -1717,6 +1948,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 197689050}
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &197689054
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 197689050}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1001 &202981733
 PrefabInstance:
@@ -1802,6 +2055,7 @@ GameObject:
   - component: {fileID: 203650648}
   - component: {fileID: 203650650}
   - component: {fileID: 203650649}
+  - component: {fileID: 203650651}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (94)
   m_TagString: Untagged
@@ -1873,6 +2127,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 203650647}
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &203650651
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 203650647}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1 &206573182
 GameObject:
@@ -1968,6 +2244,7 @@ GameObject:
   - component: {fileID: 206851499}
   - component: {fileID: 206851501}
   - component: {fileID: 206851500}
+  - component: {fileID: 206851502}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (17)
   m_TagString: Untagged
@@ -2040,6 +2317,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 206851498}
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &206851502
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 206851498}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1 &207137695
 GameObject:
   m_ObjectHideFlags: 0
@@ -2051,6 +2350,7 @@ GameObject:
   - component: {fileID: 207137696}
   - component: {fileID: 207137698}
   - component: {fileID: 207137697}
+  - component: {fileID: 207137699}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (91)
   m_TagString: Untagged
@@ -2122,6 +2422,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 207137695}
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &207137699
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 207137695}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1001 &210355803
 PrefabInstance:
@@ -2207,6 +2529,7 @@ GameObject:
   - component: {fileID: 211022932}
   - component: {fileID: 211022934}
   - component: {fileID: 211022933}
+  - component: {fileID: 211022935}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (132)
   m_TagString: Untagged
@@ -2278,6 +2601,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 211022931}
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &211022935
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 211022931}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1001 &216836146
 PrefabInstance:
@@ -2492,6 +2837,7 @@ Transform:
   - {fileID: 1935554934}
   - {fileID: 71621579}
   - {fileID: 1272949082}
+  - {fileID: 1716723943}
   - {fileID: 1025816739}
   m_Father: {fileID: 280942377}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2589,6 +2935,7 @@ GameObject:
   - component: {fileID: 243361471}
   - component: {fileID: 243361473}
   - component: {fileID: 243361472}
+  - component: {fileID: 243361474}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (90)
   m_TagString: Untagged
@@ -2661,6 +3008,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 243361470}
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &243361474
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 243361470}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1 &246129011
 GameObject:
   m_ObjectHideFlags: 0
@@ -2672,6 +3041,7 @@ GameObject:
   - component: {fileID: 246129012}
   - component: {fileID: 246129014}
   - component: {fileID: 246129013}
+  - component: {fileID: 246129015}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (64)
   m_TagString: Untagged
@@ -2744,6 +3114,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 246129011}
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &246129015
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 246129011}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1 &249683374
 GameObject:
   m_ObjectHideFlags: 0
@@ -2755,6 +3147,7 @@ GameObject:
   - component: {fileID: 249683375}
   - component: {fileID: 249683377}
   - component: {fileID: 249683376}
+  - component: {fileID: 249683378}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (115)
   m_TagString: Untagged
@@ -2827,6 +3220,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 249683374}
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &249683378
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 249683374}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1 &251147041
 GameObject:
   m_ObjectHideFlags: 0
@@ -2838,6 +3253,7 @@ GameObject:
   - component: {fileID: 251147042}
   - component: {fileID: 251147044}
   - component: {fileID: 251147043}
+  - component: {fileID: 251147045}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (109)
   m_TagString: Untagged
@@ -2909,6 +3325,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 251147041}
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &251147045
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 251147041}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1 &267890237
 GameObject:
@@ -3000,6 +3438,7 @@ GameObject:
   - component: {fileID: 267913335}
   - component: {fileID: 267913337}
   - component: {fileID: 267913336}
+  - component: {fileID: 267913338}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (76)
   m_TagString: Untagged
@@ -3072,6 +3511,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 267913334}
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &267913338
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 267913334}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1 &271301025
 GameObject:
   m_ObjectHideFlags: 0
@@ -3083,6 +3544,7 @@ GameObject:
   - component: {fileID: 271301026}
   - component: {fileID: 271301028}
   - component: {fileID: 271301027}
+  - component: {fileID: 271301029}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (112)
   m_TagString: Untagged
@@ -3154,6 +3616,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 271301025}
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &271301029
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 271301025}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1 &274940887 stripped
 GameObject:
@@ -3255,6 +3739,7 @@ GameObject:
   - component: {fileID: 279382696}
   - component: {fileID: 279382698}
   - component: {fileID: 279382697}
+  - component: {fileID: 279382699}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (111)
   m_TagString: Untagged
@@ -3326,6 +3811,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 279382695}
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &279382699
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 279382695}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1 &280942376
 GameObject:
@@ -3496,6 +4003,7 @@ GameObject:
   - component: {fileID: 318326850}
   - component: {fileID: 318326852}
   - component: {fileID: 318326851}
+  - component: {fileID: 318326853}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (114)
   m_TagString: Untagged
@@ -3568,6 +4076,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 318326849}
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &318326853
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 318326849}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1 &322172762
 GameObject:
   m_ObjectHideFlags: 0
@@ -3579,6 +4109,7 @@ GameObject:
   - component: {fileID: 322172763}
   - component: {fileID: 322172765}
   - component: {fileID: 322172764}
+  - component: {fileID: 322172766}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (40)
   m_TagString: Untagged
@@ -3650,6 +4181,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 322172762}
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &322172766
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 322172762}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1 &324693246
 GameObject:
@@ -3882,6 +4435,7 @@ GameObject:
   - component: {fileID: 330674342}
   - component: {fileID: 330674344}
   - component: {fileID: 330674343}
+  - component: {fileID: 330674345}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (104)
   m_TagString: Untagged
@@ -3954,6 +4508,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330674341}
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &330674345
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 330674341}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1 &347037015 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 17b62156cf5cbb846ac58d03bc085a2f,
@@ -3996,6 +4572,7 @@ GameObject:
   - component: {fileID: 348199092}
   - component: {fileID: 348199094}
   - component: {fileID: 348199093}
+  - component: {fileID: 348199095}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (2)
   m_TagString: Untagged
@@ -4068,6 +4645,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 348199091}
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &348199095
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 348199091}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1 &349737247
 GameObject:
   m_ObjectHideFlags: 0
@@ -4079,6 +4678,7 @@ GameObject:
   - component: {fileID: 349737248}
   - component: {fileID: 349737250}
   - component: {fileID: 349737249}
+  - component: {fileID: 349737251}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (99)
   m_TagString: Untagged
@@ -4150,6 +4750,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 349737247}
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &349737251
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 349737247}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!4 &356497314 stripped
 Transform:
@@ -4260,6 +4882,7 @@ GameObject:
   - component: {fileID: 367698456}
   - component: {fileID: 367698458}
   - component: {fileID: 367698457}
+  - component: {fileID: 367698459}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (12)
   m_TagString: Untagged
@@ -4332,6 +4955,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 367698455}
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &367698459
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 367698455}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1 &375123562
 GameObject:
   m_ObjectHideFlags: 0
@@ -4343,6 +4988,7 @@ GameObject:
   - component: {fileID: 375123563}
   - component: {fileID: 375123565}
   - component: {fileID: 375123564}
+  - component: {fileID: 375123566}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (18)
   m_TagString: Untagged
@@ -4415,6 +5061,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 375123562}
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &375123566
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 375123562}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1 &401099288
 GameObject:
   m_ObjectHideFlags: 0
@@ -4426,6 +5094,7 @@ GameObject:
   - component: {fileID: 401099289}
   - component: {fileID: 401099291}
   - component: {fileID: 401099290}
+  - component: {fileID: 401099292}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (41)
   m_TagString: Untagged
@@ -4497,6 +5166,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 401099288}
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &401099292
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 401099288}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1 &410087039
 GameObject:
@@ -4688,6 +5379,7 @@ GameObject:
   - component: {fileID: 424797428}
   - component: {fileID: 424797430}
   - component: {fileID: 424797429}
+  - component: {fileID: 424797431}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (125)
   m_TagString: Untagged
@@ -4760,6 +5452,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 424797427}
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &424797431
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 424797427}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1 &437598042
 GameObject:
   m_ObjectHideFlags: 0
@@ -4809,6 +5523,7 @@ GameObject:
   - component: {fileID: 448311880}
   - component: {fileID: 448311882}
   - component: {fileID: 448311881}
+  - component: {fileID: 448311883}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (121)
   m_TagString: Untagged
@@ -4880,6 +5595,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 448311879}
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &448311883
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 448311879}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1 &457232353
 GameObject:
@@ -4964,81 +5701,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 457232353}
   m_Mesh: {fileID: -582571430853380772, guid: 494ade4f32f14434e8121775019b446b, type: 3}
---- !u!1 &461316402
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 461316403}
-  - component: {fileID: 461316405}
-  - component: {fileID: 461316404}
-  m_Layer: 5
-  m_Name: CrossHair
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &461316403
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 461316402}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 689648832}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1920, y: 1080}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &461316404
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 461316402}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: e7b241d5c3f75614ca05e83e498d135b, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &461316405
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 461316402}
-  m_CullTransparentMesh: 1
 --- !u!1 &471077601
 GameObject:
   m_ObjectHideFlags: 0
@@ -5050,6 +5712,7 @@ GameObject:
   - component: {fileID: 471077602}
   - component: {fileID: 471077604}
   - component: {fileID: 471077603}
+  - component: {fileID: 471077605}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (70)
   m_TagString: Untagged
@@ -5122,6 +5785,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 471077601}
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &471077605
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 471077601}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1 &475343764
 GameObject:
   m_ObjectHideFlags: 0
@@ -5133,6 +5818,7 @@ GameObject:
   - component: {fileID: 475343765}
   - component: {fileID: 475343767}
   - component: {fileID: 475343766}
+  - component: {fileID: 475343768}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (119)
   m_TagString: Untagged
@@ -5205,6 +5891,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 475343764}
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &475343768
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 475343764}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1 &485547183
 GameObject:
   m_ObjectHideFlags: 0
@@ -5216,6 +5924,7 @@ GameObject:
   - component: {fileID: 485547184}
   - component: {fileID: 485547186}
   - component: {fileID: 485547185}
+  - component: {fileID: 485547187}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (21)
   m_TagString: Untagged
@@ -5288,6 +5997,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 485547183}
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &485547187
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 485547183}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1 &492394295
 GameObject:
   m_ObjectHideFlags: 0
@@ -5299,6 +6030,7 @@ GameObject:
   - component: {fileID: 492394296}
   - component: {fileID: 492394298}
   - component: {fileID: 492394297}
+  - component: {fileID: 492394299}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (25)
   m_TagString: Untagged
@@ -5371,6 +6103,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 492394295}
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &492394299
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 492394295}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1 &517995965
 GameObject:
   m_ObjectHideFlags: 0
@@ -5382,6 +6136,7 @@ GameObject:
   - component: {fileID: 517995966}
   - component: {fileID: 517995968}
   - component: {fileID: 517995967}
+  - component: {fileID: 517995969}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (28)
   m_TagString: Untagged
@@ -5454,6 +6209,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 517995965}
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &517995969
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 517995965}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1 &518248243
 GameObject:
   m_ObjectHideFlags: 0
@@ -5465,6 +6242,7 @@ GameObject:
   - component: {fileID: 518248244}
   - component: {fileID: 518248246}
   - component: {fileID: 518248245}
+  - component: {fileID: 518248247}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (7)
   m_TagString: Untagged
@@ -5537,6 +6315,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 518248243}
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &518248247
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 518248243}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1 &520765389
 GameObject:
   m_ObjectHideFlags: 0
@@ -5548,6 +6348,7 @@ GameObject:
   - component: {fileID: 520765390}
   - component: {fileID: 520765392}
   - component: {fileID: 520765391}
+  - component: {fileID: 520765393}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (31)
   m_TagString: Untagged
@@ -5619,6 +6420,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 520765389}
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &520765393
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 520765389}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1 &537331375
 GameObject:
@@ -10460,6 +11283,7 @@ GameObject:
   - component: {fileID: 541778539}
   - component: {fileID: 541778541}
   - component: {fileID: 541778540}
+  - component: {fileID: 541778542}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (71)
   m_TagString: Untagged
@@ -10532,6 +11356,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 541778538}
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &541778542
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 541778538}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1 &554177573
 GameObject:
   m_ObjectHideFlags: 0
@@ -10543,6 +11389,7 @@ GameObject:
   - component: {fileID: 554177574}
   - component: {fileID: 554177576}
   - component: {fileID: 554177575}
+  - component: {fileID: 554177577}
   m_Layer: 0
   m_Name: Fence_grp1_Fence_Pole (4)
   m_TagString: Untagged
@@ -10615,6 +11462,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 554177573}
   m_Mesh: {fileID: -7154589907116038443, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &554177577
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 554177573}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1 &567062716
 GameObject:
   m_ObjectHideFlags: 0
@@ -10626,6 +11495,7 @@ GameObject:
   - component: {fileID: 567062717}
   - component: {fileID: 567062719}
   - component: {fileID: 567062718}
+  - component: {fileID: 567062720}
   m_Layer: 0
   m_Name: Fence_grp1_Fence_Pole (2)
   m_TagString: Untagged
@@ -10698,6 +11568,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 567062716}
   m_Mesh: {fileID: -7154589907116038443, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &567062720
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 567062716}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1 &580491404
 GameObject:
   m_ObjectHideFlags: 0
@@ -10792,6 +11684,7 @@ GameObject:
   - component: {fileID: 597522727}
   - component: {fileID: 597522729}
   - component: {fileID: 597522728}
+  - component: {fileID: 597522730}
   m_Layer: 0
   m_Name: Fence_grp1_Fence_Pole (9)
   m_TagString: Untagged
@@ -10864,6 +11757,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 597522726}
   m_Mesh: {fileID: -7154589907116038443, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &597522730
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 597522726}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1001 &598722196
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11076,6 +11991,7 @@ GameObject:
   - component: {fileID: 605307995}
   - component: {fileID: 605307997}
   - component: {fileID: 605307996}
+  - component: {fileID: 605307998}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (58)
   m_TagString: Untagged
@@ -11147,6 +12063,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 605307994}
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &605307998
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 605307994}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1 &609336409
 GameObject:
@@ -11242,6 +12180,7 @@ GameObject:
   - component: {fileID: 610880932}
   - component: {fileID: 610880934}
   - component: {fileID: 610880933}
+  - component: {fileID: 610880935}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (124)
   m_TagString: Untagged
@@ -11314,6 +12253,111 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 610880931}
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &610880935
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 610880931}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!1001 &626459377
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 222751757}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: e8fa6efbcf597bf43accee35ed39dc09,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.015806
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e8fa6efbcf597bf43accee35ed39dc09,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.016112
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e8fa6efbcf597bf43accee35ed39dc09,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -28.91
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e8fa6efbcf597bf43accee35ed39dc09,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.8781915
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e8fa6efbcf597bf43accee35ed39dc09,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -3.95
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e8fa6efbcf597bf43accee35ed39dc09,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.69254774
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e8fa6efbcf597bf43accee35ed39dc09,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e8fa6efbcf597bf43accee35ed39dc09,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.72137207
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e8fa6efbcf597bf43accee35ed39dc09,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e8fa6efbcf597bf43accee35ed39dc09,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e8fa6efbcf597bf43accee35ed39dc09,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -92.336
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e8fa6efbcf597bf43accee35ed39dc09,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e8fa6efbcf597bf43accee35ed39dc09,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d49f8a1adb845474f886676ee2abcfd9, type: 2}
+    - target: {fileID: 919132149155446097, guid: e8fa6efbcf597bf43accee35ed39dc09,
+        type: 3}
+      propertyPath: m_Name
+      value: jeep (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e8fa6efbcf597bf43accee35ed39dc09, type: 3}
 --- !u!1 &626608623
 GameObject:
   m_ObjectHideFlags: 0
@@ -11325,6 +12369,7 @@ GameObject:
   - component: {fileID: 626608624}
   - component: {fileID: 626608626}
   - component: {fileID: 626608625}
+  - component: {fileID: 626608627}
   m_Layer: 0
   m_Name: Fence_grp1_Fence_Pole (6)
   m_TagString: Untagged
@@ -11397,6 +12442,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 626608623}
   m_Mesh: {fileID: -7154589907116038443, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &626608627
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 626608623}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1 &628192508
 GameObject:
   m_ObjectHideFlags: 0
@@ -11408,6 +12475,7 @@ GameObject:
   - component: {fileID: 628192509}
   - component: {fileID: 628192511}
   - component: {fileID: 628192510}
+  - component: {fileID: 628192512}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (126)
   m_TagString: Untagged
@@ -11480,6 +12548,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 628192508}
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &628192512
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 628192508}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1 &640381854
 GameObject:
   m_ObjectHideFlags: 0
@@ -11491,6 +12581,7 @@ GameObject:
   - component: {fileID: 640381855}
   - component: {fileID: 640381857}
   - component: {fileID: 640381856}
+  - component: {fileID: 640381858}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (50)
   m_TagString: Untagged
@@ -11563,6 +12654,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 640381854}
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &640381858
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 640381854}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1 &644126152
 GameObject:
   m_ObjectHideFlags: 0
@@ -11574,6 +12687,7 @@ GameObject:
   - component: {fileID: 644126153}
   - component: {fileID: 644126155}
   - component: {fileID: 644126154}
+  - component: {fileID: 644126156}
   m_Layer: 0
   m_Name: Fence_grp1_Fence_Pole (8)
   m_TagString: Untagged
@@ -11646,6 +12760,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 644126152}
   m_Mesh: {fileID: -7154589907116038443, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &644126156
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 644126152}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1 &673103962
 GameObject:
   m_ObjectHideFlags: 0
@@ -11695,6 +12831,7 @@ GameObject:
   - component: {fileID: 677586236}
   - component: {fileID: 677586238}
   - component: {fileID: 677586237}
+  - component: {fileID: 677586239}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (55)
   m_TagString: Untagged
@@ -11767,6 +12904,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 677586235}
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &677586239
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 677586235}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1 &681270714
 GameObject:
   m_ObjectHideFlags: 0
@@ -11778,6 +12937,7 @@ GameObject:
   - component: {fileID: 681270715}
   - component: {fileID: 681270717}
   - component: {fileID: 681270716}
+  - component: {fileID: 681270718}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (34)
   m_TagString: Untagged
@@ -11849,6 +13009,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 681270714}
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &681270718
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 681270714}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1 &689419658
 GameObject:
@@ -11944,6 +13126,7 @@ GameObject:
   - component: {fileID: 689610532}
   - component: {fileID: 689610534}
   - component: {fileID: 689610533}
+  - component: {fileID: 689610535}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (53)
   m_TagString: Untagged
@@ -12015,6 +13198,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 689610531}
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &689610535
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 689610531}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1 &689648828
 GameObject:
@@ -12110,7 +13315,6 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 461316403}
   - {fileID: 267890238}
   - {fileID: 1854446599}
   m_Father: {fileID: 0}
@@ -12131,6 +13335,7 @@ GameObject:
   - component: {fileID: 704844358}
   - component: {fileID: 704844360}
   - component: {fileID: 704844359}
+  - component: {fileID: 704844361}
   m_Layer: 0
   m_Name: Fence_grp1_Fence_Pole (1)
   m_TagString: Untagged
@@ -12203,6 +13408,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 704844357}
   m_Mesh: {fileID: -7154589907116038443, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &704844361
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 704844357}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1 &749118788
 GameObject:
   m_ObjectHideFlags: 0
@@ -12330,6 +13557,7 @@ GameObject:
   - component: {fileID: 766633771}
   - component: {fileID: 766633773}
   - component: {fileID: 766633772}
+  - component: {fileID: 766633774}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (82)
   m_TagString: Untagged
@@ -12402,6 +13630,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 766633770}
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &766633774
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 766633770}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1 &768751124
 GameObject:
   m_ObjectHideFlags: 0
@@ -12413,6 +13663,7 @@ GameObject:
   - component: {fileID: 768751125}
   - component: {fileID: 768751127}
   - component: {fileID: 768751126}
+  - component: {fileID: 768751128}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (74)
   m_TagString: Untagged
@@ -12485,6 +13736,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 768751124}
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &768751128
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 768751124}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1 &791296206
 GameObject:
   m_ObjectHideFlags: 0
@@ -12496,6 +13769,7 @@ GameObject:
   - component: {fileID: 791296207}
   - component: {fileID: 791296209}
   - component: {fileID: 791296208}
+  - component: {fileID: 791296210}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (51)
   m_TagString: Untagged
@@ -12567,6 +13841,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 791296206}
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &791296210
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 791296206}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1 &805480809
 GameObject:
@@ -12745,6 +14041,7 @@ GameObject:
   - component: {fileID: 828918066}
   - component: {fileID: 828918068}
   - component: {fileID: 828918067}
+  - component: {fileID: 828918069}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (84)
   m_TagString: Untagged
@@ -12817,6 +14114,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 828918065}
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &828918069
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 828918065}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
@@ -12877,6 +14196,7 @@ GameObject:
   - component: {fileID: 841491354}
   - component: {fileID: 841491356}
   - component: {fileID: 841491355}
+  - component: {fileID: 841491357}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (33)
   m_TagString: Untagged
@@ -12949,6 +14269,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 841491353}
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &841491357
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 841491353}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1 &844410434
 GameObject:
   m_ObjectHideFlags: 0
@@ -12960,6 +14302,7 @@ GameObject:
   - component: {fileID: 844410435}
   - component: {fileID: 844410437}
   - component: {fileID: 844410436}
+  - component: {fileID: 844410438}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (83)
   m_TagString: Untagged
@@ -13031,6 +14374,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 844410434}
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &844410438
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 844410434}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1 &847653649
 GameObject:
@@ -13232,6 +14597,7 @@ GameObject:
   - component: {fileID: 860655575}
   - component: {fileID: 860655577}
   - component: {fileID: 860655576}
+  - component: {fileID: 860655578}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (20)
   m_TagString: Untagged
@@ -13304,6 +14670,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 860655574}
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &860655578
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 860655574}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1 &864444371
 GameObject:
   m_ObjectHideFlags: 0
@@ -13315,6 +14703,7 @@ GameObject:
   - component: {fileID: 864444372}
   - component: {fileID: 864444374}
   - component: {fileID: 864444373}
+  - component: {fileID: 864444375}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (60)
   m_TagString: Untagged
@@ -13386,6 +14775,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 864444371}
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &864444375
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 864444371}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1 &880099806
 GameObject:
@@ -13481,6 +14892,7 @@ GameObject:
   - component: {fileID: 880426365}
   - component: {fileID: 880426367}
   - component: {fileID: 880426366}
+  - component: {fileID: 880426368}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (47)
   m_TagString: Untagged
@@ -13552,6 +14964,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 880426364}
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &880426368
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 880426364}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1001 &881350144
 PrefabInstance:
@@ -13642,6 +15076,7 @@ GameObject:
   - component: {fileID: 885061304}
   - component: {fileID: 885061306}
   - component: {fileID: 885061305}
+  - component: {fileID: 885061307}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (123)
   m_TagString: Untagged
@@ -13714,6 +15149,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 885061303}
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &885061307
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 885061303}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1 &903832509
 GameObject:
   m_ObjectHideFlags: 0
@@ -13725,6 +15182,7 @@ GameObject:
   - component: {fileID: 903832510}
   - component: {fileID: 903832512}
   - component: {fileID: 903832511}
+  - component: {fileID: 903832513}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (93)
   m_TagString: Untagged
@@ -13797,6 +15255,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 903832509}
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &903832513
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 903832509}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1 &905111143
 GameObject:
   m_ObjectHideFlags: 0
@@ -13808,6 +15288,7 @@ GameObject:
   - component: {fileID: 905111144}
   - component: {fileID: 905111146}
   - component: {fileID: 905111145}
+  - component: {fileID: 905111147}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (103)
   m_TagString: Untagged
@@ -13879,6 +15360,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 905111143}
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &905111147
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 905111143}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1 &909562544
 GameObject:
@@ -13974,6 +15477,7 @@ GameObject:
   - component: {fileID: 909875298}
   - component: {fileID: 909875300}
   - component: {fileID: 909875299}
+  - component: {fileID: 909875301}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (100)
   m_TagString: Untagged
@@ -14045,6 +15549,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 909875297}
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &909875301
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 909875297}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1 &913622532
 GameObject:
@@ -14140,6 +15666,7 @@ GameObject:
   - component: {fileID: 916380240}
   - component: {fileID: 916380242}
   - component: {fileID: 916380241}
+  - component: {fileID: 916380243}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (96)
   m_TagString: Untagged
@@ -14212,6 +15739,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 916380239}
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &916380243
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 916380239}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1 &918681705
 GameObject:
   m_ObjectHideFlags: 0
@@ -14223,6 +15772,7 @@ GameObject:
   - component: {fileID: 918681706}
   - component: {fileID: 918681708}
   - component: {fileID: 918681707}
+  - component: {fileID: 918681709}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (134)
   m_TagString: Untagged
@@ -14295,6 +15845,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 918681705}
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &918681709
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 918681705}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1 &938993240
 GameObject:
   m_ObjectHideFlags: 0
@@ -14306,6 +15878,7 @@ GameObject:
   - component: {fileID: 938993241}
   - component: {fileID: 938993243}
   - component: {fileID: 938993242}
+  - component: {fileID: 938993244}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (66)
   m_TagString: Untagged
@@ -14377,6 +15950,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 938993240}
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &938993244
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 938993240}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1 &977726115
 GameObject:
@@ -19278,31 +20873,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 7.05
+      value: 125.92
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.98
+      value: 46.74
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -9.25
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.70500225
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0.70920515
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -19310,7 +20905,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: -90.341
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -19415,6 +21010,7 @@ GameObject:
   - component: {fileID: 1006469600}
   - component: {fileID: 1006469602}
   - component: {fileID: 1006469601}
+  - component: {fileID: 1006469603}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (13)
   m_TagString: Untagged
@@ -19487,6 +21083,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1006469599}
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &1006469603
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1006469599}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1 &1012647342
 GameObject:
   m_ObjectHideFlags: 0
@@ -19498,6 +21116,7 @@ GameObject:
   - component: {fileID: 1012647343}
   - component: {fileID: 1012647345}
   - component: {fileID: 1012647344}
+  - component: {fileID: 1012647346}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (6)
   m_TagString: Untagged
@@ -19569,6 +21188,56 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1012647342}
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &1012647346
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1012647342}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!1 &1015827017 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -8340448101116928485, guid: 494ade4f32f14434e8121775019b446b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1227799167}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1015827022
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1015827017}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!4 &1025816739 stripped
 Transform:
@@ -19693,6 +21362,7 @@ GameObject:
   - component: {fileID: 1039729986}
   - component: {fileID: 1039729988}
   - component: {fileID: 1039729987}
+  - component: {fileID: 1039729989}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (36)
   m_TagString: Untagged
@@ -19765,6 +21435,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1039729985}
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &1039729989
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1039729985}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1 &1045597360
 GameObject:
   m_ObjectHideFlags: 0
@@ -19809,6 +21501,7 @@ GameObject:
   - component: {fileID: 1046713546}
   - component: {fileID: 1046713548}
   - component: {fileID: 1046713547}
+  - component: {fileID: 1046713549}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (29)
   m_TagString: Untagged
@@ -19881,6 +21574,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1046713545}
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &1046713549
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1046713545}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1 &1050184537
 GameObject:
   m_ObjectHideFlags: 0
@@ -19892,6 +21607,7 @@ GameObject:
   - component: {fileID: 1050184538}
   - component: {fileID: 1050184540}
   - component: {fileID: 1050184539}
+  - component: {fileID: 1050184541}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (130)
   m_TagString: Untagged
@@ -19964,6 +21680,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1050184537}
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &1050184541
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1050184537}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1 &1051564593
 GameObject:
   m_ObjectHideFlags: 0
@@ -19975,6 +21713,7 @@ GameObject:
   - component: {fileID: 1051564594}
   - component: {fileID: 1051564596}
   - component: {fileID: 1051564595}
+  - component: {fileID: 1051564597}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (37)
   m_TagString: Untagged
@@ -20047,6 +21786,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1051564593}
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &1051564597
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1051564593}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1 &1069435349
 GameObject:
   m_ObjectHideFlags: 0
@@ -20058,6 +21819,7 @@ GameObject:
   - component: {fileID: 1069435350}
   - component: {fileID: 1069435352}
   - component: {fileID: 1069435351}
+  - component: {fileID: 1069435353}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (26)
   m_TagString: Untagged
@@ -20130,6 +21892,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1069435349}
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &1069435353
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1069435349}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1 &1074012287
 GameObject:
   m_ObjectHideFlags: 0
@@ -20141,6 +21925,7 @@ GameObject:
   - component: {fileID: 1074012288}
   - component: {fileID: 1074012290}
   - component: {fileID: 1074012289}
+  - component: {fileID: 1074012291}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (79)
   m_TagString: Untagged
@@ -20213,6 +21998,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1074012287}
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &1074012291
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1074012287}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1 &1081047233
 GameObject:
   m_ObjectHideFlags: 0
@@ -20224,6 +22031,7 @@ GameObject:
   - component: {fileID: 1081047234}
   - component: {fileID: 1081047236}
   - component: {fileID: 1081047235}
+  - component: {fileID: 1081047237}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (42)
   m_TagString: Untagged
@@ -20296,6 +22104,101 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1081047233}
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &1081047237
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1081047233}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!1001 &1086820962
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 81aa94685963c2041b103c5acb5ea518,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -19.22
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 81aa94685963c2041b103c5acb5ea518,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.8183753
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 81aa94685963c2041b103c5acb5ea518,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -27.2
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 81aa94685963c2041b103c5acb5ea518,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.12284173
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 81aa94685963c2041b103c5acb5ea518,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 81aa94685963c2041b103c5acb5ea518,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.9924263
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 81aa94685963c2041b103c5acb5ea518,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 81aa94685963c2041b103c5acb5ea518,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 81aa94685963c2041b103c5acb5ea518,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -165.888
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 81aa94685963c2041b103c5acb5ea518,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 81aa94685963c2041b103c5acb5ea518,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b860d548c224cfc41828d9268b0ca1f8, type: 2}
+    - target: {fileID: 919132149155446097, guid: 81aa94685963c2041b103c5acb5ea518,
+        type: 3}
+      propertyPath: m_Name
+      value: yellow
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 81aa94685963c2041b103c5acb5ea518, type: 3}
 --- !u!1 &1096704308
 GameObject:
   m_ObjectHideFlags: 0
@@ -20307,6 +22210,7 @@ GameObject:
   - component: {fileID: 1096704309}
   - component: {fileID: 1096704311}
   - component: {fileID: 1096704310}
+  - component: {fileID: 1096704312}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (8)
   m_TagString: Untagged
@@ -20379,6 +22283,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1096704308}
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &1096704312
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1096704308}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1 &1097573835
 GameObject:
   m_ObjectHideFlags: 0
@@ -20390,6 +22316,7 @@ GameObject:
   - component: {fileID: 1097573836}
   - component: {fileID: 1097573838}
   - component: {fileID: 1097573837}
+  - component: {fileID: 1097573839}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (86)
   m_TagString: Untagged
@@ -20462,6 +22389,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1097573835}
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &1097573839
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1097573835}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1 &1103071061
 GameObject:
   m_ObjectHideFlags: 0
@@ -20473,6 +22422,7 @@ GameObject:
   - component: {fileID: 1103071062}
   - component: {fileID: 1103071064}
   - component: {fileID: 1103071063}
+  - component: {fileID: 1103071065}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (128)
   m_TagString: Untagged
@@ -20544,6 +22494,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1103071061}
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &1103071065
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1103071061}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1 &1116456994
 GameObject:
@@ -20722,6 +22694,7 @@ GameObject:
   - component: {fileID: 1137927663}
   - component: {fileID: 1137927665}
   - component: {fileID: 1137927664}
+  - component: {fileID: 1137927666}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (108)
   m_TagString: Untagged
@@ -20794,6 +22767,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1137927662}
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &1137927666
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1137927662}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1 &1141147258
 GameObject:
   m_ObjectHideFlags: 0
@@ -20805,6 +22800,7 @@ GameObject:
   - component: {fileID: 1141147259}
   - component: {fileID: 1141147261}
   - component: {fileID: 1141147260}
+  - component: {fileID: 1141147262}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (11)
   m_TagString: Untagged
@@ -20877,6 +22873,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1141147258}
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &1141147262
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1141147258}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1 &1141344559
 GameObject:
   m_ObjectHideFlags: 0
@@ -20888,6 +22906,7 @@ GameObject:
   - component: {fileID: 1141344560}
   - component: {fileID: 1141344562}
   - component: {fileID: 1141344561}
+  - component: {fileID: 1141344563}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (72)
   m_TagString: Untagged
@@ -20960,6 +22979,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1141344559}
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &1141344563
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1141344559}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1 &1153766790
 GameObject:
   m_ObjectHideFlags: 0
@@ -20971,6 +23012,7 @@ GameObject:
   - component: {fileID: 1153766791}
   - component: {fileID: 1153766793}
   - component: {fileID: 1153766792}
+  - component: {fileID: 1153766794}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (133)
   m_TagString: Untagged
@@ -21043,6 +23085,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1153766790}
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &1153766794
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1153766790}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1 &1161104113
 GameObject:
   m_ObjectHideFlags: 0
@@ -21054,6 +23118,7 @@ GameObject:
   - component: {fileID: 1161104114}
   - component: {fileID: 1161104116}
   - component: {fileID: 1161104115}
+  - component: {fileID: 1161104117}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (81)
   m_TagString: Untagged
@@ -21126,6 +23191,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1161104113}
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &1161104117
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1161104113}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1 &1177894124
 GameObject:
   m_ObjectHideFlags: 0
@@ -21137,6 +23224,7 @@ GameObject:
   - component: {fileID: 1177894125}
   - component: {fileID: 1177894127}
   - component: {fileID: 1177894126}
+  - component: {fileID: 1177894128}
   m_Layer: 0
   m_Name: Fence_grp1_Fence_Pole (7)
   m_TagString: Untagged
@@ -21209,6 +23297,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1177894124}
   m_Mesh: {fileID: -7154589907116038443, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &1177894128
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1177894124}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1 &1188159837
 GameObject:
   m_ObjectHideFlags: 0
@@ -21220,6 +23330,7 @@ GameObject:
   - component: {fileID: 1188159838}
   - component: {fileID: 1188159840}
   - component: {fileID: 1188159839}
+  - component: {fileID: 1188159841}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (65)
   m_TagString: Untagged
@@ -21292,6 +23403,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1188159837}
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &1188159841
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1188159837}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1 &1188896978
 GameObject:
   m_ObjectHideFlags: 0
@@ -21303,6 +23436,7 @@ GameObject:
   - component: {fileID: 1188896979}
   - component: {fileID: 1188896981}
   - component: {fileID: 1188896980}
+  - component: {fileID: 1188896982}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (63)
   m_TagString: Untagged
@@ -21375,6 +23509,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1188896978}
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &1188896982
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1188896978}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1 &1196171426
 GameObject:
   m_ObjectHideFlags: 0
@@ -21386,6 +23542,7 @@ GameObject:
   - component: {fileID: 1196171427}
   - component: {fileID: 1196171429}
   - component: {fileID: 1196171428}
+  - component: {fileID: 1196171430}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (85)
   m_TagString: Untagged
@@ -21458,6 +23615,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1196171426}
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &1196171430
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1196171426}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1 &1197383207
 GameObject:
   m_ObjectHideFlags: 0
@@ -21469,6 +23648,7 @@ GameObject:
   - component: {fileID: 1197383208}
   - component: {fileID: 1197383210}
   - component: {fileID: 1197383209}
+  - component: {fileID: 1197383211}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (48)
   m_TagString: Untagged
@@ -21540,6 +23720,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1197383207}
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &1197383211
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1197383207}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1001 &1211053661
 PrefabInstance:
@@ -21625,6 +23827,7 @@ GameObject:
   - component: {fileID: 1212478387}
   - component: {fileID: 1212478389}
   - component: {fileID: 1212478388}
+  - component: {fileID: 1212478390}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (110)
   m_TagString: Untagged
@@ -21696,6 +23899,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1212478386}
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &1212478390
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1212478386}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1001 &1227799167
 PrefabInstance:
@@ -21785,6 +24010,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 164.89
       objectReference: {fileID: 0}
+    - target: {fileID: -6188262573643272237, guid: 494ade4f32f14434e8121775019b446b,
+        type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -3036515004003302727, guid: 494ade4f32f14434e8121775019b446b,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: -1379869544841331588, guid: 494ade4f32f14434e8121775019b446b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -21829,6 +24064,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: -180
+      objectReference: {fileID: 0}
+    - target: {fileID: -67400582098371328, guid: 494ade4f32f14434e8121775019b446b,
+        type: 3}
+      propertyPath: m_Convex
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 494ade4f32f14434e8121775019b446b,
         type: 3}
@@ -21904,6 +24144,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 20.253
+      objectReference: {fileID: 0}
+    - target: {fileID: 5867819732448499320, guid: 494ade4f32f14434e8121775019b446b,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9142891307508585449, guid: 494ade4f32f14434e8121775019b446b,
         type: 3}
@@ -22559,7 +24804,11 @@ PrefabInstance:
         type: 3}
       insertIndex: 30
       addedObject: {fileID: 437598043}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: -8340448101116928485, guid: 494ade4f32f14434e8121775019b446b,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1015827022}
   m_SourcePrefab: {fileID: 100100000, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!4 &1227799168 stripped
 Transform:
@@ -22584,6 +24833,7 @@ GameObject:
   - component: {fileID: 1236279279}
   - component: {fileID: 1236279281}
   - component: {fileID: 1236279280}
+  - component: {fileID: 1236279282}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (46)
   m_TagString: Untagged
@@ -22656,6 +24906,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1236279278}
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &1236279282
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1236279278}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1 &1239681274
 GameObject:
   m_ObjectHideFlags: 0
@@ -22667,6 +24939,7 @@ GameObject:
   - component: {fileID: 1239681275}
   - component: {fileID: 1239681277}
   - component: {fileID: 1239681276}
+  - component: {fileID: 1239681278}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (102)
   m_TagString: Untagged
@@ -22738,6 +25011,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1239681274}
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &1239681278
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1239681274}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1 &1244273803
 GameObject:
@@ -22833,6 +25128,7 @@ GameObject:
   - component: {fileID: 1259425853}
   - component: {fileID: 1259425855}
   - component: {fileID: 1259425854}
+  - component: {fileID: 1259425856}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (105)
   m_TagString: Untagged
@@ -22905,6 +25201,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1259425852}
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &1259425856
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1259425852}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!4 &1263963529 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 60417b09272174d43b20af04c251dd3c,
@@ -22922,6 +25240,7 @@ GameObject:
   - component: {fileID: 1271388688}
   - component: {fileID: 1271388690}
   - component: {fileID: 1271388689}
+  - component: {fileID: 1271388691}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (22)
   m_TagString: Untagged
@@ -22993,6 +25312,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1271388687}
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &1271388691
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1271388687}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!4 &1272949082 stripped
 Transform:
@@ -23123,13 +25464,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1278987471}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.304, y: 0.91499996, z: -0.18300009}
+  m_LocalRotation: {x: -0, y: -0.9999325, z: -0, w: -0.011622936}
+  m_LocalPosition: {x: 123.57, y: 48.02, z: -10.59}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -181.332, z: 0}
 --- !u!1 &1302614543
 GameObject:
   m_ObjectHideFlags: 0
@@ -23141,6 +25482,7 @@ GameObject:
   - component: {fileID: 1302614544}
   - component: {fileID: 1302614546}
   - component: {fileID: 1302614545}
+  - component: {fileID: 1302614547}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (30)
   m_TagString: Untagged
@@ -23213,6 +25555,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1302614543}
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &1302614547
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1302614543}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1 &1309727607
 GameObject:
   m_ObjectHideFlags: 0
@@ -23224,6 +25588,7 @@ GameObject:
   - component: {fileID: 1309727608}
   - component: {fileID: 1309727610}
   - component: {fileID: 1309727609}
+  - component: {fileID: 1309727611}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (61)
   m_TagString: Untagged
@@ -23296,6 +25661,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1309727607}
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &1309727611
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1309727607}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1 &1320525492
 GameObject:
   m_ObjectHideFlags: 0
@@ -23307,6 +25694,7 @@ GameObject:
   - component: {fileID: 1320525493}
   - component: {fileID: 1320525495}
   - component: {fileID: 1320525494}
+  - component: {fileID: 1320525496}
   m_Layer: 0
   m_Name: Fence_grp1_Fence_Pole (3)
   m_TagString: Untagged
@@ -23379,6 +25767,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1320525492}
   m_Mesh: {fileID: -7154589907116038443, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &1320525496
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1320525492}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!4 &1333484300 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 80c8d5899efccad42891382d770be012,
@@ -28224,6 +30634,7 @@ GameObject:
   - component: {fileID: 1348816381}
   - component: {fileID: 1348816383}
   - component: {fileID: 1348816382}
+  - component: {fileID: 1348816384}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (27)
   m_TagString: Untagged
@@ -28296,6 +30707,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1348816380}
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &1348816384
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1348816380}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1 &1355970144
 GameObject:
   m_ObjectHideFlags: 0
@@ -28307,6 +30740,7 @@ GameObject:
   - component: {fileID: 1355970145}
   - component: {fileID: 1355970147}
   - component: {fileID: 1355970146}
+  - component: {fileID: 1355970148}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (39)
   m_TagString: Untagged
@@ -28378,6 +30812,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1355970144}
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &1355970148
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1355970144}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1 &1356674735
 GameObject:
@@ -28556,6 +31012,7 @@ GameObject:
   - component: {fileID: 1375001678}
   - component: {fileID: 1375001680}
   - component: {fileID: 1375001679}
+  - component: {fileID: 1375001681}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (120)
   m_TagString: Untagged
@@ -28628,6 +31085,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1375001677}
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &1375001681
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1375001677}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1 &1377681449
 GameObject:
   m_ObjectHideFlags: 0
@@ -28639,6 +31118,7 @@ GameObject:
   - component: {fileID: 1377681450}
   - component: {fileID: 1377681452}
   - component: {fileID: 1377681451}
+  - component: {fileID: 1377681453}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (129)
   m_TagString: Untagged
@@ -28710,6 +31190,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1377681449}
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &1377681453
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1377681449}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1 &1390635276
 GameObject:
@@ -28805,6 +31307,7 @@ GameObject:
   - component: {fileID: 1392829128}
   - component: {fileID: 1392829130}
   - component: {fileID: 1392829129}
+  - component: {fileID: 1392829131}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (88)
   m_TagString: Untagged
@@ -28876,6 +31379,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1392829127}
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &1392829131
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1392829127}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1 &1403125888
 GameObject:
@@ -28994,6 +31519,7 @@ GameObject:
   - component: {fileID: 1419566551}
   - component: {fileID: 1419566553}
   - component: {fileID: 1419566552}
+  - component: {fileID: 1419566554}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (35)
   m_TagString: Untagged
@@ -29066,6 +31592,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1419566550}
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &1419566554
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1419566550}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1 &1425119579
 GameObject:
   m_ObjectHideFlags: 0
@@ -29077,6 +31625,7 @@ GameObject:
   - component: {fileID: 1425119580}
   - component: {fileID: 1425119582}
   - component: {fileID: 1425119581}
+  - component: {fileID: 1425119583}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (57)
   m_TagString: Untagged
@@ -29149,6 +31698,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1425119579}
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &1425119583
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1425119579}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1 &1455427963
 GameObject:
   m_ObjectHideFlags: 0
@@ -29160,6 +31731,7 @@ GameObject:
   - component: {fileID: 1455427964}
   - component: {fileID: 1455427966}
   - component: {fileID: 1455427965}
+  - component: {fileID: 1455427967}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (10)
   m_TagString: Untagged
@@ -29232,6 +31804,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1455427963}
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &1455427967
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1455427963}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1 &1455910081
 GameObject:
   m_ObjectHideFlags: 0
@@ -29243,6 +31837,7 @@ GameObject:
   - component: {fileID: 1455910082}
   - component: {fileID: 1455910084}
   - component: {fileID: 1455910083}
+  - component: {fileID: 1455910085}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (116)
   m_TagString: Untagged
@@ -29314,6 +31909,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1455910081}
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &1455910085
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1455910081}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1 &1460828354
 GameObject:
@@ -29409,6 +32026,7 @@ GameObject:
   - component: {fileID: 1488573406}
   - component: {fileID: 1488573408}
   - component: {fileID: 1488573407}
+  - component: {fileID: 1488573409}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (49)
   m_TagString: Untagged
@@ -29480,6 +32098,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1488573405}
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &1488573409
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1488573405}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1 &1496750261
 GameObject:
@@ -29660,6 +32300,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -4006708364836883765, guid: a343d0ba1ee6ed348982d09c3774fd5b,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -138
+      objectReference: {fileID: 0}
+    - target: {fileID: -4006708364836883765, guid: a343d0ba1ee6ed348982d09c3774fd5b,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -153
+      objectReference: {fileID: 0}
+    - target: {fileID: -4006708364836883765, guid: a343d0ba1ee6ed348982d09c3774fd5b,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -386
+      objectReference: {fileID: 0}
     - target: {fileID: -3790352472000369974, guid: a343d0ba1ee6ed348982d09c3774fd5b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -29697,6 +32352,52 @@ PrefabInstance:
     - {fileID: 7242944475213164239, guid: a343d0ba1ee6ed348982d09c3774fd5b, type: 3}
     - {fileID: 1311308091010627922, guid: a343d0ba1ee6ed348982d09c3774fd5b, type: 3}
     - {fileID: 2115704717106700475, guid: a343d0ba1ee6ed348982d09c3774fd5b, type: 3}
+    - {fileID: -41754388853935142, guid: a343d0ba1ee6ed348982d09c3774fd5b, type: 3}
+    - {fileID: -5292301010857719198, guid: a343d0ba1ee6ed348982d09c3774fd5b, type: 3}
+    - {fileID: -6944356624174207450, guid: a343d0ba1ee6ed348982d09c3774fd5b, type: 3}
+    - {fileID: -2032730571539426176, guid: a343d0ba1ee6ed348982d09c3774fd5b, type: 3}
+    - {fileID: 3716560139338127558, guid: a343d0ba1ee6ed348982d09c3774fd5b, type: 3}
+    - {fileID: -6588137646990983289, guid: a343d0ba1ee6ed348982d09c3774fd5b, type: 3}
+    - {fileID: -1593276045716715570, guid: a343d0ba1ee6ed348982d09c3774fd5b, type: 3}
+    - {fileID: 7098500397897714239, guid: a343d0ba1ee6ed348982d09c3774fd5b, type: 3}
+    - {fileID: 2799004975836017499, guid: a343d0ba1ee6ed348982d09c3774fd5b, type: 3}
+    - {fileID: 5290935056804024145, guid: a343d0ba1ee6ed348982d09c3774fd5b, type: 3}
+    - {fileID: 2085743763655603779, guid: a343d0ba1ee6ed348982d09c3774fd5b, type: 3}
+    - {fileID: 3310675725481263254, guid: a343d0ba1ee6ed348982d09c3774fd5b, type: 3}
+    - {fileID: -5021505435426515407, guid: a343d0ba1ee6ed348982d09c3774fd5b, type: 3}
+    - {fileID: -7587064690667947418, guid: a343d0ba1ee6ed348982d09c3774fd5b, type: 3}
+    - {fileID: 8314110418502485059, guid: a343d0ba1ee6ed348982d09c3774fd5b, type: 3}
+    - {fileID: -4410736978921596366, guid: a343d0ba1ee6ed348982d09c3774fd5b, type: 3}
+    - {fileID: -6123484998512888411, guid: a343d0ba1ee6ed348982d09c3774fd5b, type: 3}
+    - {fileID: 682876264419135768, guid: a343d0ba1ee6ed348982d09c3774fd5b, type: 3}
+    - {fileID: -378011702367215234, guid: a343d0ba1ee6ed348982d09c3774fd5b, type: 3}
+    - {fileID: -4874251098024741593, guid: a343d0ba1ee6ed348982d09c3774fd5b, type: 3}
+    - {fileID: 4025051164957637294, guid: a343d0ba1ee6ed348982d09c3774fd5b, type: 3}
+    - {fileID: -8223143504784823129, guid: a343d0ba1ee6ed348982d09c3774fd5b, type: 3}
+    - {fileID: 3618315144801817205, guid: a343d0ba1ee6ed348982d09c3774fd5b, type: 3}
+    - {fileID: -9140634530858970859, guid: a343d0ba1ee6ed348982d09c3774fd5b, type: 3}
+    - {fileID: -9145780657412726388, guid: a343d0ba1ee6ed348982d09c3774fd5b, type: 3}
+    - {fileID: -7524201608669169098, guid: a343d0ba1ee6ed348982d09c3774fd5b, type: 3}
+    - {fileID: -7184698838077942082, guid: a343d0ba1ee6ed348982d09c3774fd5b, type: 3}
+    - {fileID: 8646168543424374511, guid: a343d0ba1ee6ed348982d09c3774fd5b, type: 3}
+    - {fileID: 4475700266871407956, guid: a343d0ba1ee6ed348982d09c3774fd5b, type: 3}
+    - {fileID: -3836378949291781455, guid: a343d0ba1ee6ed348982d09c3774fd5b, type: 3}
+    - {fileID: 420533817211456368, guid: a343d0ba1ee6ed348982d09c3774fd5b, type: 3}
+    - {fileID: 3015682854612078669, guid: a343d0ba1ee6ed348982d09c3774fd5b, type: 3}
+    - {fileID: -1278498417633801152, guid: a343d0ba1ee6ed348982d09c3774fd5b, type: 3}
+    - {fileID: 2578255153306893836, guid: a343d0ba1ee6ed348982d09c3774fd5b, type: 3}
+    - {fileID: -5978573087357897296, guid: a343d0ba1ee6ed348982d09c3774fd5b, type: 3}
+    - {fileID: -3754599404460558162, guid: a343d0ba1ee6ed348982d09c3774fd5b, type: 3}
+    - {fileID: -335751785989617057, guid: a343d0ba1ee6ed348982d09c3774fd5b, type: 3}
+    - {fileID: 7402367557770007273, guid: a343d0ba1ee6ed348982d09c3774fd5b, type: 3}
+    - {fileID: -1917087158761061466, guid: a343d0ba1ee6ed348982d09c3774fd5b, type: 3}
+    - {fileID: -3711905276421931297, guid: a343d0ba1ee6ed348982d09c3774fd5b, type: 3}
+    - {fileID: -511527265131656347, guid: a343d0ba1ee6ed348982d09c3774fd5b, type: 3}
+    - {fileID: 3214518321040567775, guid: a343d0ba1ee6ed348982d09c3774fd5b, type: 3}
+    - {fileID: -8513424388201257645, guid: a343d0ba1ee6ed348982d09c3774fd5b, type: 3}
+    - {fileID: -7877312682337757456, guid: a343d0ba1ee6ed348982d09c3774fd5b, type: 3}
+    - {fileID: 2199874083531639470, guid: a343d0ba1ee6ed348982d09c3774fd5b, type: 3}
+    - {fileID: -3386553121241536846, guid: a343d0ba1ee6ed348982d09c3774fd5b, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a343d0ba1ee6ed348982d09c3774fd5b, type: 3}
@@ -29900,6 +32601,7 @@ GameObject:
   - component: {fileID: 1530203229}
   - component: {fileID: 1530203231}
   - component: {fileID: 1530203230}
+  - component: {fileID: 1530203232}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (52)
   m_TagString: Untagged
@@ -29971,6 +32673,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1530203228}
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &1530203232
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1530203228}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!4 &1532958654 stripped
 Transform:
@@ -30072,6 +32796,7 @@ GameObject:
   - component: {fileID: 1538347466}
   - component: {fileID: 1538347468}
   - component: {fileID: 1538347467}
+  - component: {fileID: 1538347469}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (16)
   m_TagString: Untagged
@@ -30144,6 +32869,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1538347465}
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &1538347469
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1538347465}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1 &1544333631
 GameObject:
   m_ObjectHideFlags: 0
@@ -30155,6 +32902,7 @@ GameObject:
   - component: {fileID: 1544333632}
   - component: {fileID: 1544333634}
   - component: {fileID: 1544333633}
+  - component: {fileID: 1544333635}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (97)
   m_TagString: Untagged
@@ -30226,6 +32974,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1544333631}
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &1544333635
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1544333631}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1001 &1545791998
 PrefabInstance:
@@ -30768,6 +33538,7 @@ GameObject:
   - component: {fileID: 1580607727}
   - component: {fileID: 1580607729}
   - component: {fileID: 1580607728}
+  - component: {fileID: 1580607730}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (117)
   m_TagString: Untagged
@@ -30839,6 +33610,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1580607726}
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &1580607730
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1580607726}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1001 &1591676493
 PrefabInstance:
@@ -30924,6 +33717,7 @@ GameObject:
   - component: {fileID: 1593907775}
   - component: {fileID: 1593907777}
   - component: {fileID: 1593907776}
+  - component: {fileID: 1593907778}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (45)
   m_TagString: Untagged
@@ -30996,6 +33790,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1593907774}
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &1593907778
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1593907774}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1 &1598680591
 GameObject:
   m_ObjectHideFlags: 0
@@ -31007,6 +33823,7 @@ GameObject:
   - component: {fileID: 1598680592}
   - component: {fileID: 1598680594}
   - component: {fileID: 1598680593}
+  - component: {fileID: 1598680595}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (127)
   m_TagString: Untagged
@@ -31078,6 +33895,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1598680591}
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &1598680595
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1598680591}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1 &1599103011
 GameObject:
@@ -31375,6 +34214,7 @@ GameObject:
   - component: {fileID: 1655897059}
   - component: {fileID: 1655897061}
   - component: {fileID: 1655897060}
+  - component: {fileID: 1655897062}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (87)
   m_TagString: Untagged
@@ -31447,6 +34287,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1655897058}
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &1655897062
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1655897058}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1 &1664698272
 GameObject:
   m_ObjectHideFlags: 0
@@ -31458,6 +34320,7 @@ GameObject:
   - component: {fileID: 1664698273}
   - component: {fileID: 1664698275}
   - component: {fileID: 1664698274}
+  - component: {fileID: 1664698276}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (19)
   m_TagString: Untagged
@@ -31530,6 +34393,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1664698272}
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &1664698276
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1664698272}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1 &1679994557
 GameObject:
   m_ObjectHideFlags: 0
@@ -31541,6 +34426,7 @@ GameObject:
   - component: {fileID: 1679994558}
   - component: {fileID: 1679994560}
   - component: {fileID: 1679994559}
+  - component: {fileID: 1679994561}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (69)
   m_TagString: Untagged
@@ -31612,6 +34498,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1679994557}
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &1679994561
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1679994557}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1 &1681859082
 GameObject:
@@ -31707,6 +34615,7 @@ GameObject:
   - component: {fileID: 1693651231}
   - component: {fileID: 1693651233}
   - component: {fileID: 1693651232}
+  - component: {fileID: 1693651234}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (1)
   m_TagString: Untagged
@@ -31779,6 +34688,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1693651230}
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &1693651234
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1693651230}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1001 &1699255811
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -31790,12 +34721,12 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: bd3216dcd97b3ac4384f4aea55e319a6,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.0021997958
+      value: 0.003135589
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: bd3216dcd97b3ac4384f4aea55e319a6,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.0021997958
+      value: 0.003242939
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: bd3216dcd97b3ac4384f4aea55e319a6,
         type: 3}
@@ -31805,17 +34736,17 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: bd3216dcd97b3ac4384f4aea55e319a6,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -21.76
+      value: -18.6
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: bd3216dcd97b3ac4384f4aea55e319a6,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.44
+      value: 2.17
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: bd3216dcd97b3ac4384f4aea55e319a6,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -6.32
+      value: -9.01
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: bd3216dcd97b3ac4384f4aea55e319a6,
         type: 3}
@@ -31873,6 +34804,7 @@ GameObject:
   - component: {fileID: 1714973728}
   - component: {fileID: 1714973730}
   - component: {fileID: 1714973729}
+  - component: {fileID: 1714973731}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (118)
   m_TagString: Untagged
@@ -31945,6 +34877,34 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1714973727}
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &1714973731
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1714973727}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!4 &1716723943 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: e8fa6efbcf597bf43accee35ed39dc09,
+    type: 3}
+  m_PrefabInstance: {fileID: 626459377}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1718305261
 GameObject:
   m_ObjectHideFlags: 0
@@ -31956,6 +34916,7 @@ GameObject:
   - component: {fileID: 1718305262}
   - component: {fileID: 1718305264}
   - component: {fileID: 1718305263}
+  - component: {fileID: 1718305265}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (77)
   m_TagString: Untagged
@@ -32028,6 +34989,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1718305261}
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &1718305265
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1718305261}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1 &1721693674
 GameObject:
   m_ObjectHideFlags: 0
@@ -32039,6 +35022,7 @@ GameObject:
   - component: {fileID: 1721693675}
   - component: {fileID: 1721693677}
   - component: {fileID: 1721693676}
+  - component: {fileID: 1721693678}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (95)
   m_TagString: Untagged
@@ -32110,6 +35094,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1721693674}
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &1721693678
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1721693674}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1 &1732304630
 GameObject:
@@ -32409,6 +35415,7 @@ GameObject:
   - component: {fileID: 1783539412}
   - component: {fileID: 1783539414}
   - component: {fileID: 1783539413}
+  - component: {fileID: 1783539415}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (54)
   m_TagString: Untagged
@@ -32481,6 +35488,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1783539411}
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &1783539415
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1783539411}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1 &1795800321
 GameObject:
   m_ObjectHideFlags: 0
@@ -32492,6 +35521,7 @@ GameObject:
   - component: {fileID: 1795800322}
   - component: {fileID: 1795800324}
   - component: {fileID: 1795800323}
+  - component: {fileID: 1795800325}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (107)
   m_TagString: Untagged
@@ -32564,6 +35594,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1795800321}
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &1795800325
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1795800321}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1 &1799402955
 GameObject:
   m_ObjectHideFlags: 0
@@ -32575,6 +35627,7 @@ GameObject:
   - component: {fileID: 1799402956}
   - component: {fileID: 1799402958}
   - component: {fileID: 1799402957}
+  - component: {fileID: 1799402959}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (38)
   m_TagString: Untagged
@@ -32647,6 +35700,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1799402955}
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &1799402959
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1799402955}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1 &1822234719
 GameObject:
   m_ObjectHideFlags: 0
@@ -32658,6 +35733,7 @@ GameObject:
   - component: {fileID: 1822234720}
   - component: {fileID: 1822234722}
   - component: {fileID: 1822234721}
+  - component: {fileID: 1822234723}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (44)
   m_TagString: Untagged
@@ -32729,6 +35805,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1822234719}
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &1822234723
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1822234719}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1 &1854446598
 GameObject:
@@ -32986,6 +36084,7 @@ GameObject:
   - component: {fileID: 1866398788}
   - component: {fileID: 1866398790}
   - component: {fileID: 1866398789}
+  - component: {fileID: 1866398791}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (73)
   m_TagString: Untagged
@@ -33058,6 +36157,101 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1866398787}
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &1866398791
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1866398787}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!1001 &1880289254
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: b1cdca17fb882cd4d87a93163964f742,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -11.13
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b1cdca17fb882cd4d87a93163964f742,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.8183753
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b1cdca17fb882cd4d87a93163964f742,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 30.1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b1cdca17fb882cd4d87a93163964f742,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b1cdca17fb882cd4d87a93163964f742,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b1cdca17fb882cd4d87a93163964f742,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b1cdca17fb882cd4d87a93163964f742,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b1cdca17fb882cd4d87a93163964f742,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b1cdca17fb882cd4d87a93163964f742,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b1cdca17fb882cd4d87a93163964f742,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: b1cdca17fb882cd4d87a93163964f742,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b860d548c224cfc41828d9268b0ca1f8, type: 2}
+    - target: {fileID: 919132149155446097, guid: b1cdca17fb882cd4d87a93163964f742,
+        type: 3}
+      propertyPath: m_Name
+      value: blue
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b1cdca17fb882cd4d87a93163964f742, type: 3}
 --- !u!1 &1896489674
 GameObject:
   m_ObjectHideFlags: 0
@@ -33069,6 +36263,7 @@ GameObject:
   - component: {fileID: 1896489675}
   - component: {fileID: 1896489677}
   - component: {fileID: 1896489676}
+  - component: {fileID: 1896489678}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (32)
   m_TagString: Untagged
@@ -33141,6 +36336,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1896489674}
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &1896489678
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1896489674}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1 &1898395434
 GameObject:
   m_ObjectHideFlags: 0
@@ -33152,6 +36369,7 @@ GameObject:
   - component: {fileID: 1898395435}
   - component: {fileID: 1898395437}
   - component: {fileID: 1898395436}
+  - component: {fileID: 1898395438}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (75)
   m_TagString: Untagged
@@ -33224,6 +36442,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1898395434}
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &1898395438
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1898395434}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1 &1910162908
 GameObject:
   m_ObjectHideFlags: 0
@@ -33235,6 +36475,7 @@ GameObject:
   - component: {fileID: 1910162909}
   - component: {fileID: 1910162911}
   - component: {fileID: 1910162910}
+  - component: {fileID: 1910162912}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (122)
   m_TagString: Untagged
@@ -33307,6 +36548,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1910162908}
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &1910162912
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1910162908}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1 &1922832728
 GameObject:
   m_ObjectHideFlags: 0
@@ -33318,6 +36581,7 @@ GameObject:
   - component: {fileID: 1922832729}
   - component: {fileID: 1922832731}
   - component: {fileID: 1922832730}
+  - component: {fileID: 1922832732}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (15)
   m_TagString: Untagged
@@ -33390,6 +36654,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1922832728}
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &1922832732
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1922832728}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1 &1928833608
 GameObject:
   m_ObjectHideFlags: 0
@@ -33440,6 +36726,7 @@ GameObject:
   - component: {fileID: 1937068570}
   - component: {fileID: 1937068572}
   - component: {fileID: 1937068571}
+  - component: {fileID: 1937068573}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (14)
   m_TagString: Untagged
@@ -33511,6 +36798,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1937068569}
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &1937068573
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1937068569}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1001 &1940393781
 PrefabInstance:
@@ -33702,6 +37011,7 @@ GameObject:
   - component: {fileID: 1950867275}
   - component: {fileID: 1950867277}
   - component: {fileID: 1950867276}
+  - component: {fileID: 1950867278}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (5)
   m_TagString: Untagged
@@ -33774,6 +37084,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1950867274}
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &1950867278
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1950867274}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1 &1976802283
 GameObject:
   m_ObjectHideFlags: 0
@@ -33785,6 +37117,7 @@ GameObject:
   - component: {fileID: 1976802284}
   - component: {fileID: 1976802286}
   - component: {fileID: 1976802285}
+  - component: {fileID: 1976802287}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (92)
   m_TagString: Untagged
@@ -33857,6 +37190,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1976802283}
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &1976802287
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1976802283}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1 &1980747487
 GameObject:
   m_ObjectHideFlags: 0
@@ -33868,6 +37223,7 @@ GameObject:
   - component: {fileID: 1980747488}
   - component: {fileID: 1980747490}
   - component: {fileID: 1980747489}
+  - component: {fileID: 1980747491}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (4)
   m_TagString: Untagged
@@ -33940,6 +37296,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1980747487}
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &1980747491
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1980747487}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1 &1985332578
 GameObject:
   m_ObjectHideFlags: 0
@@ -33951,6 +37329,7 @@ GameObject:
   - component: {fileID: 1985332579}
   - component: {fileID: 1985332581}
   - component: {fileID: 1985332580}
+  - component: {fileID: 1985332582}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (3)
   m_TagString: Untagged
@@ -34022,6 +37401,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1985332578}
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &1985332582
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1985332578}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1 &2015051070
 GameObject:
@@ -34328,6 +37729,7 @@ GameObject:
   - component: {fileID: 2063988904}
   - component: {fileID: 2063988906}
   - component: {fileID: 2063988905}
+  - component: {fileID: 2063988907}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (62)
   m_TagString: Untagged
@@ -34400,6 +37802,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2063988903}
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &2063988907
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2063988903}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1 &2081059636
 GameObject:
   m_ObjectHideFlags: 0
@@ -34411,6 +37835,7 @@ GameObject:
   - component: {fileID: 2081059637}
   - component: {fileID: 2081059639}
   - component: {fileID: 2081059638}
+  - component: {fileID: 2081059640}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (24)
   m_TagString: Untagged
@@ -34483,6 +37908,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2081059636}
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &2081059640
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2081059636}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1 &2083190531
 GameObject:
   m_ObjectHideFlags: 0
@@ -34494,6 +37941,7 @@ GameObject:
   - component: {fileID: 2083190532}
   - component: {fileID: 2083190534}
   - component: {fileID: 2083190533}
+  - component: {fileID: 2083190535}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (78)
   m_TagString: Untagged
@@ -34566,6 +38014,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2083190531}
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &2083190535
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2083190531}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1 &2095487646
 GameObject:
   m_ObjectHideFlags: 0
@@ -34577,6 +38047,7 @@ GameObject:
   - component: {fileID: 2095487647}
   - component: {fileID: 2095487649}
   - component: {fileID: 2095487648}
+  - component: {fileID: 2095487650}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (68)
   m_TagString: Untagged
@@ -34649,6 +38120,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2095487646}
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &2095487650
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2095487646}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1 &2096573122
 GameObject:
   m_ObjectHideFlags: 0
@@ -34660,6 +38153,7 @@ GameObject:
   - component: {fileID: 2096573123}
   - component: {fileID: 2096573125}
   - component: {fileID: 2096573124}
+  - component: {fileID: 2096573126}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (56)
   m_TagString: Untagged
@@ -34732,6 +38226,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2096573122}
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &2096573126
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2096573122}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1 &2103931816
 GameObject:
   m_ObjectHideFlags: 0
@@ -34743,6 +38259,7 @@ GameObject:
   - component: {fileID: 2103931817}
   - component: {fileID: 2103931819}
   - component: {fileID: 2103931818}
+  - component: {fileID: 2103931820}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (113)
   m_TagString: Untagged
@@ -34815,6 +38332,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2103931816}
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &2103931820
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2103931816}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1 &2106783910
 GameObject:
   m_ObjectHideFlags: 0
@@ -34826,6 +38365,7 @@ GameObject:
   - component: {fileID: 2106783911}
   - component: {fileID: 2106783913}
   - component: {fileID: 2106783912}
+  - component: {fileID: 2106783914}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (98)
   m_TagString: Untagged
@@ -34897,6 +38437,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2106783910}
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &2106783914
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2106783910}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1 &2107110741
 GameObject:
@@ -34992,6 +38554,7 @@ GameObject:
   - component: {fileID: 2108942266}
   - component: {fileID: 2108942268}
   - component: {fileID: 2108942267}
+  - component: {fileID: 2108942269}
   m_Layer: 0
   m_Name: BrownFence_grp1_Post (89)
   m_TagString: Untagged
@@ -35064,6 +38627,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2108942265}
   m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
+--- !u!64 &2108942269
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2108942265}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2569654356528351426, guid: 494ade4f32f14434e8121775019b446b, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -35074,9 +38659,11 @@ SceneRoots:
   - {fileID: 2052195787}
   - {fileID: 763550349}
   - {fileID: 154558818}
-  - {fileID: 359653195}
   - {fileID: 1502248719}
   - {fileID: 1278987473}
   - {fileID: 978547998}
   - {fileID: 280942377}
   - {fileID: 1699255811}
+  - {fileID: 1880289254}
+  - {fileID: 359653195}
+  - {fileID: 1086820962}
