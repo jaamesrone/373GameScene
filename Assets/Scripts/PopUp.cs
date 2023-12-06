@@ -184,7 +184,7 @@ public class PopUp : MonoBehaviour
         }
 
         // starts a 180 second timer to toggle the rain, rain, and intensity
-        StartCoroutine(TurnOffEffects(180f)); // 180 seconds = 3 minutes
+        StartCoroutine(TurnOffEffects(10f)); // 180 seconds = 3 minutes
         Debug.Log("Special code activated!");
 
         // turns off special event text after 5 sec
