@@ -12,9 +12,9 @@ public class PopUp : MonoBehaviour
     public AudioClip popSound; // Add your pop sound effect here
 
     // UI Text
-    public Transform player;
     public Text displayText;
     public Text SpecialEventText;
+    public Text killStreakText;
     public float displayDistance = 5f;
 
     public GameObject RainFall;
@@ -34,7 +34,7 @@ public class PopUp : MonoBehaviour
 
     //Based on how many heads are popped up
 
-    private int interactionCount = 0; // New variable to count interactions
+    public int interactionCount = 0; // New variable to count interactions
     public int interactionThreshold; //set it in the hierachy
 
 
@@ -116,8 +116,6 @@ public class PopUp : MonoBehaviour
 
         // Perform any other actions you want here
 
-        // Set the flag to indicate that the interaction has occurred
-        hasInteracted = true;
 
          interactionCount++;
 
@@ -131,8 +129,35 @@ public class PopUp : MonoBehaviour
 
         // Set the flag to indicate that the interaction has occurred
         hasInteracted = true;
-    
+
+        //kill streak message
+        StartCoroutine(DisplayKillStreakMessage());
     }
+
+    private IEnumerator DisplayKillStreakMessage() // james' code
+    {
+        // Display the message and make it blink for 5 seconds
+        float totalTime = 5f;
+        float blinkTime = 0f;
+        float blinkSpeed = 0.5f; 
+
+        while (blinkTime < totalTime)
+        {
+            killStreakText.text = "Kill Streak Activated! Press Tab for RC Car";
+
+            yield return new WaitForSeconds(blinkSpeed);
+
+            killStreakText.text = "";
+
+            yield return new WaitForSeconds(blinkSpeed);
+
+            blinkTime += blinkSpeed * 2; 
+        }
+
+        // After 5 seconds, clear the text
+        killStreakText.text = "";
+    }
+
 
     private void SpecialEvent() //james' code
     {
@@ -161,6 +186,20 @@ public class PopUp : MonoBehaviour
         // starts a 180 second timer to toggle the rain, rain, and intensity
         StartCoroutine(TurnOffEffects(180f)); // 180 seconds = 3 minutes
         Debug.Log("Special code activated!");
+
+        // turns off special event text after 5 sec
+        StartCoroutine(TurnOffSpecialEventText());
+    }
+
+    private IEnumerator TurnOffSpecialEventText()
+    {
+        yield return new WaitForSeconds(5f);
+
+        // Clear the SpecialEventText after 5 seconds
+        if (SpecialEventText != null)
+        {
+            SpecialEventText.text = "";
+        }
     }
 
     private void LightSensitivity(float intensity) //james' code

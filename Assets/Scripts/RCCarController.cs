@@ -31,13 +31,13 @@ public class RCCarController : MonoBehaviour
 
     IEnumerator ActivateBoost()
     {
-        // Store the initial local position of the camera
+        // store the initial local position of the camera
         Vector3 initialLocalPosition = cameraTransform.localPosition;
 
-        // Start the boost
+       
         isBoosting = true;
 
-        // Move the camera along its local x-axis by -20 unit
+        
         cameraTransform.localPosition += new Vector3(-20, 0, 0);
 
         // Apply the boost speed
@@ -46,7 +46,7 @@ public class RCCarController : MonoBehaviour
         // Wait for the boost duration
         yield return new WaitForSeconds(boostCooldown);
 
-        // Reset the camera's local position to the initial local position
+        
         cameraTransform.localPosition = initialLocalPosition;
 
         // Reset speed and end the boost
@@ -84,7 +84,7 @@ public class RCCarController : MonoBehaviour
         float mouseY = Input.GetAxis("Mouse Y");
         transform.Rotate(Vector3.up, mouseX * rotationSpeed * Time.deltaTime);
 
-        // Rotate the camera (or the assigned cameraTransform) based on mouse input
+        // Rotate the camera based on mouse input
         if (cameraTransform != null)
         {
             cameraTransform.Rotate(Vector3.left, mouseY * rotationSpeed * Time.deltaTime);

@@ -8,6 +8,7 @@ public class InventoryManager : MonoBehaviour
     private GameObject rcCar;
     private GameObject Player;
 
+
     void Start()
     {
         // rc car get spawned right when the scene starts
@@ -15,6 +16,7 @@ public class InventoryManager : MonoBehaviour
         rcCar.SetActive(false); // hide the rc car so you can toggle it's ability back and forth.
 
         Player = playerCharacterPrefab;
+
     }
 
     // Update is called once per frame
@@ -34,8 +36,8 @@ public class InventoryManager : MonoBehaviour
         rcCar.SetActive(!rcCar.activeSelf);
 
         // Set the position and rotation of the newly activated device
-        rcCar.transform.position = transform.position;
-        rcCar.transform.rotation = transform.rotation;
+        rcCar.transform.position = playerCharacterPrefab.transform.position;
+        rcCar.transform.rotation = playerCharacterPrefab.transform.rotation;
 
         // debug information
         Debug.Log("Switched to: " + rcCar.name);
